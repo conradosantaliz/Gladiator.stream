@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="Gladiator Stream " name="Gladiator.stream " version="0.0.1" provider-name="Conrado Santaliz">
+<addon id="Gladiator.stream " name="Gladiator.stream " version="0.0.1" provider-name="Conrado Santaliz">
 	<extension point="xbmc.addon.repository" name="Gladiator.stream add-on repository">
 		<info compressed="false">http://raw.github.com/conradosantaliz/Gladiator.stream/master/addons.xml</info>
 		<checksum>http://raw.github.com/conradosantaliz/Gladiator.stream/master/addons.xml.md5</checksum>
@@ -8,7 +8,7 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Gladiator.stream Addon</summary>
-		<description>En este repositorio podran encontrar multiplex add-on que le podran instalar para su entretenimiento para su hogar </description>
+		<description>nuevo repositorio para instalar tus mejores addons para tu entretenimiento en el hogar</description>
 		<disclaimer></disclaimer>
 		<platform>all</platform>
 	</extension>
