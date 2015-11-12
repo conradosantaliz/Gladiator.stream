@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="Gladiator.stream " name="Gladiator.stream " version="0.0.1" provider-name="conradosantaliz">
-	<extension point="xbmc.addon.repository" name="Gladiator.stream Add-on Repository">
+	<extension point="xbmc.addon.repository" name="Gladiator.stream add-on repository">
 		<info compressed="false">http://raw.github.com/conradosantaliz/Gladiator.stream/master/addons.xml</info>
 		<checksum>http://raw.github.com/conradosantaliz/Gladiator.stream/master/addons.xml.md5</checksum>
 		<datadir zip="true">http://raw.github.com/conradosantaliz/Gladiator.stream/master/repo/</datadir>
