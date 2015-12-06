@@ -2,9 +2,9 @@
 <addons>
 <addon id="Gladiator Stream " name="Gladiator Stream " version="0.0.1" provider-name="Conrado Santaliz">
 	<extension point="xbmc.addon.repository" name="Gladiator Stream add-on repository">
-		<info compressed="false">http://raw.github.com/conradosantaliz/Gladiator.stream/master/addons.xml</info>
-		<checksum>http://raw.github.com/conradosantaliz/Gladiator.stream/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/conradosantaliz/Gladiator.stream/master/repo/</datadir>
+		<info compressed="false">http://raw.githubusercontent.com/conradosantaliz/Gladiator.stream/master/addons.xml</info>
+		<checksum>http://raw.githubusercontent.com/conradosantaliz/Gladiator.stream/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.githubusercontent.com/conradosantaliz/Gladiator.stream/master/repo/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Gladiator Stream Addon</summary>
@@ -14,3 +14,35 @@
 	</extension>
 </addon>
 </addons>
+<addon id="plugin.video.EliplexTV"
+       name="[COLOR red]ELIPLEX TV [/COLOR]"
+       version="1.0.3"
+       provider-name="Eliesel G.S">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>[COLOR red]ELIPLEX TV [/COLOR]</summary>
+    <description>
+  Entretenimiento al extremo #MI MUNDO ES TU MUNDO[COLOR green]
+           * VISITA NUESTRA PAGINA
+	https://eliplextv.wordpress.com/
+    https://www.facebook.com/eliplextv/ [/COLOR]
+
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
